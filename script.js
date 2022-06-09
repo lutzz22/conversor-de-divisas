@@ -14,16 +14,20 @@ function convertir() {
         resultado = parseInt(valor.value)/dolar;
         cambio = resultado.toFixed(2)
         alert(`$${valor.value} Pesos Argentinos son US$${cambio} Dolares`)
-        console.log(cambio)
+        dolares.checked= false
     } else if(euros.checked){
         resultado = parseInt(valor.value)/euro;
         cambio=resultado.toFixed(2)
         alert(`$${valor.value} Pesos Argentinos son €${cambio} Euros`)
+        euros.checked= false
     }else if(libras.checked){
         resultado = parseInt(valor.value)/libra;
         cambio=resultado.toFixed(2)
         alert(`$${valor.value} Pesos Argentinos son £${cambio} Libras`)
+        libras.checked= false
     }else{
         alert('Tienes que completar todos los campos para poder seguir')
     }
+    
+    valor.value=''
 }
