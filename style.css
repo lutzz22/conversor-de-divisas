@@ -1,0 +1,42 @@
+
+body{
+    background-color: rgba(0, 128, 0, .5);
+}
+
+h3{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+.formulario{
+    margin: 20px;
+    font-size: 19px;
+    font-family: monospace;
+    text-align: center;
+}
+
+#uno , #dos, #tres{
+    width: 60px;
+    height: 15px;
+}
+
+#valor{
+    width: 150px;
+    font-size: 20px;
+}
+
+#cotizador{
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 12%;
+    cursor: pointer;
+    border-color: none;
+}
+
+#cotizador:hover{
+   background-color: blueviolet;
+   color: white;
+}
